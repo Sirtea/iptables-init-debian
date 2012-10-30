@@ -9,7 +9,7 @@ Download the script and place it in /etc/init.d/ with execution permissions, and
 I you want this script to be recognized as a service and autostart in debian, you must issue the following command:
 
 ```bash
-# update-rc.d iptables defaults
+update-rc.d iptables defaults
 ```
 
 ## How to use the script
@@ -26,8 +26,8 @@ Available command are:
 Example:
 
 ```bash
-# service iptables start
-# service iptables stop
-# service iptables restart
-# service iptables status
+service iptables start
+service iptables stop
+service iptables restart
+service iptables status
 ```
