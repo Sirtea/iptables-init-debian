@@ -18,10 +18,10 @@ Once installed, this file must be created, by saving current rules (save command
 
 Available command are:
 
-* start: loads /etc/init.d/iptables.rules
+* start: loads /etc/iptables.rules
 * stop: flushes iptables completely, and enforces ACCEPT policy
 * restart: convenience start & stop command
-* save: saves the current rules to /etc/init.d/iptables.rules
+* save: saves the current rules to /etc/iptables.rules
 
 Example:
 
